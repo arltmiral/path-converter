@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>Path Converter</title>
+	
+	<link rel="stylesheet" href="./Assets/pathconverter.css" type="text/css" media="screen">
+	
+	<script type="text/javascript" src="./Assets/path.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	
+</head>
+
+	<body>
+		<div id="wrapper">
+			<div id="contentarea">
+				<div class="form">
+					<p>Paste your Mac or Windows path here:</p>
+					
+					<form>
+						<input class="path" type="text" size="20" value="" name="Eingabe">
+						<input class="button" type="button" onclick="this.form.Ergebnis.value=path(this.form.Eingabe.value)" value="Convert path" name="Start">
+					
+						<div class="result-box">
+							<input class="result-input" type="text" readonly="" size="50" name="Ergebnis">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+		
+
+		<div>
+			<p>S:\Sales\Public\02_partner\!03_graphics\03_teaser_freshups\drakensang-online\20151113_balor-group</p>
+		</div>
+
+	</body>
+</html>
