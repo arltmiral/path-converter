@@ -1,3 +1,4 @@
+
 function path(QuellText){
 	
 	var backslash ="\\";
