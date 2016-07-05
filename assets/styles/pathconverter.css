@@ -1,0 +1,88 @@
+body {
+	text-align: center;
+	display: block;
+	
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	font-size: 1.0em;
+}
+
+#wrapper {
+	width: 90%;
+	margin: auto;
+	text-align: center;
+}
+
+
+#contentarea {
+	text-align:left;
+}
+
+#contentarea .form p {
+	margin: 105px 0 25px 0;
+}
+
+
+
+
+
+#contentarea .form .path {
+	width: 100%;
+	
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
+
+
+
+
+
+
+
+#contentarea .form .result-box {
+	margin: 15px 0 0 0;
+	width: 100%;
+}
+
+
+#contentarea .form .result-input {
+	margin: 15px 0 0 0;
+	width: inherit;
+	padding: 0.2em;
+	
+	background: #eee;
+	border: hidden;
+	
+	font-weight: 300;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	color: #d0021b;
+}
+
+
+
+
+#contentarea .form .button {
+	height: 3.0em;
+	width: 100%;
+	margin: 15px 0 0 0;
+	padding: 0.2em;
+	
+	background: #d0021b;
+	border: none;
+	
+	font-weight: 500;
+	text-align: center;
+	font-size: 1.5em;
+	color: #fff;
+
+	cursor: pointer;
+}
+
+
+#contentarea .form .button:active {
+	background: #0f0;
+	color: inherit;
+}
+
+
